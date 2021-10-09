@@ -20,9 +20,9 @@ app.get("/sendmail", async (req, res) => {
 		let info = await transporter.sendMail({
 			from: '"Fred Foo 👻" <foo@example.com>', // sender address
 			to: "satyamor2@gmail.com", // list of receivers
-			subject: "Hello ✔", // Subject line
+			subject: "my world ✔", // Subject line
 			text: "yes I am Here", // plain text body
-			html: "<b>Hello world?</b>", // html body
+			html: "<b>backend</b>", // html body
 		});
 		res.send({
 			msg: `Message sent:, ${info.messageId}`,
