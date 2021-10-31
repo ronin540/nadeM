@@ -1,3 +1,2 @@
-function cl() {
-	alert("i am in");
-}
+alert('satyam');
+
